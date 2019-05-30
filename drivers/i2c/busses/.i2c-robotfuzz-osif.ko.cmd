@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-robotfuzz-osif.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/i2c/busses/i2c-robotfuzz-osif.ko drivers/i2c/busses/i2c-robotfuzz-osif.o drivers/i2c/busses/i2c-robotfuzz-osif.mod.o

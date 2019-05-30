@@ -1,0 +1,1 @@
+cmd_drivers/power/twl4030_charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/twl4030_charger.ko drivers/power/twl4030_charger.o drivers/power/twl4030_charger.mod.o

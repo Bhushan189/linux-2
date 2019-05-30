@@ -1,0 +1,1 @@
+cmd_drivers/hsi/clients/hsi_char.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/hsi/clients/hsi_char.ko drivers/hsi/clients/hsi_char.o drivers/hsi/clients/hsi_char.mod.o

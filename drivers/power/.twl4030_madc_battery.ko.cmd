@@ -1,0 +1,1 @@
+cmd_drivers/power/twl4030_madc_battery.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/twl4030_madc_battery.ko drivers/power/twl4030_madc_battery.o drivers/power/twl4030_madc_battery.mod.o

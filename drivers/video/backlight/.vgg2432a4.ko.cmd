@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/vgg2432a4.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/vgg2432a4.ko drivers/video/backlight/vgg2432a4.o drivers/video/backlight/vgg2432a4.mod.o

@@ -1,0 +1,2 @@
+kernel/drivers/nvme/host/nvme-fabrics.ko
+kernel/drivers/nvme/host/nvme-rdma.ko

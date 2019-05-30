@@ -1,0 +1,1 @@
+cmd_drivers/power/max77693_charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/max77693_charger.ko drivers/power/max77693_charger.o drivers/power/max77693_charger.mod.o

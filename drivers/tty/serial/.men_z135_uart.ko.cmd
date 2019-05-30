@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/men_z135_uart.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/tty/serial/men_z135_uart.ko drivers/tty/serial/men_z135_uart.o drivers/tty/serial/men_z135_uart.mod.o

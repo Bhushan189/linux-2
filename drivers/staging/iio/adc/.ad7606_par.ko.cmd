@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/adc/ad7606_par.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/adc/ad7606_par.ko drivers/staging/iio/adc/ad7606_par.o drivers/staging/iio/adc/ad7606_par.mod.o

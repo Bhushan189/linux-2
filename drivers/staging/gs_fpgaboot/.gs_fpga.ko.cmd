@@ -1,0 +1,1 @@
+cmd_drivers/staging/gs_fpgaboot/gs_fpga.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/gs_fpgaboot/gs_fpga.ko drivers/staging/gs_fpgaboot/gs_fpga.o drivers/staging/gs_fpgaboot/gs_fpga.mod.o

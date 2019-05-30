@@ -1,0 +1,1 @@
+cmd_drivers/regulator/pcap-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/pcap-regulator.ko drivers/regulator/pcap-regulator.o drivers/regulator/pcap-regulator.mod.o

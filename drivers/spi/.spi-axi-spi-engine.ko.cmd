@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-axi-spi-engine.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/spi/spi-axi-spi-engine.ko drivers/spi/spi-axi-spi-engine.o drivers/spi/spi-axi-spi-engine.mod.o

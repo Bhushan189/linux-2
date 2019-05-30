@@ -1,0 +1,2 @@
+kernel/drivers/hsi/clients/hsi_char.ko
+kernel/drivers/hsi/hsi.ko

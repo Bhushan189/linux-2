@@ -1,0 +1,1 @@
+cmd_drivers/mfd/hi6421-pmic-core.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mfd/hi6421-pmic-core.ko drivers/mfd/hi6421-pmic-core.o drivers/mfd/hi6421-pmic-core.mod.o

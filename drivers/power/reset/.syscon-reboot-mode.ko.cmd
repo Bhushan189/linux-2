@@ -1,0 +1,1 @@
+cmd_drivers/power/reset/syscon-reboot-mode.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/reset/syscon-reboot-mode.ko drivers/power/reset/syscon-reboot-mode.o drivers/power/reset/syscon-reboot-mode.mod.o

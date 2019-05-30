@@ -1,0 +1,1 @@
+cmd_drivers/power/reset/built-in.o :=  ld -m elf_x86_64   -r -o drivers/power/reset/built-in.o drivers/power/reset/gpio-poweroff.o drivers/power/reset/gpio-restart.o drivers/power/reset/ltc2952-poweroff.o drivers/power/reset/restart-poweroff.o drivers/power/reset/syscon-reboot.o drivers/power/reset/syscon-poweroff.o 

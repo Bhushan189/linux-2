@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/l4f00242t03.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/l4f00242t03.ko drivers/video/backlight/l4f00242t03.o drivers/video/backlight/l4f00242t03.mod.o

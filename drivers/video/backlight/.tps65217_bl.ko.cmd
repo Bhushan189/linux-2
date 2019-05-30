@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/tps65217_bl.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/tps65217_bl.ko drivers/video/backlight/tps65217_bl.o drivers/video/backlight/tps65217_bl.mod.o

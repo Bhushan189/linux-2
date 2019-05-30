@@ -1,0 +1,1 @@
+cmd_drivers/nfc/st-nci/st-nci_spi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/nfc/st-nci/st-nci_spi.ko drivers/nfc/st-nci/st-nci_spi.o drivers/nfc/st-nci/st-nci_spi.mod.o

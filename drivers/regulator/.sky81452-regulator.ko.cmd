@@ -1,0 +1,1 @@
+cmd_drivers/regulator/sky81452-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/sky81452-regulator.ko drivers/regulator/sky81452-regulator.o drivers/regulator/sky81452-regulator.mod.o

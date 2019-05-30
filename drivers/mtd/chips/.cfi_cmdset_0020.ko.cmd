@@ -1,0 +1,1 @@
+cmd_drivers/mtd/chips/cfi_cmdset_0020.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mtd/chips/cfi_cmdset_0020.ko drivers/mtd/chips/cfi_cmdset_0020.o drivers/mtd/chips/cfi_cmdset_0020.mod.o

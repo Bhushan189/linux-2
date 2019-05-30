@@ -1,0 +1,1 @@
+cmd_drivers/iio/potentiometer/tpl0102.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/potentiometer/tpl0102.ko drivers/iio/potentiometer/tpl0102.o drivers/iio/potentiometer/tpl0102.mod.o

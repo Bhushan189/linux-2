@@ -1,0 +1,1 @@
+cmd_drivers/pci/hotplug/pciehp.o := ld -m elf_x86_64   -r -o drivers/pci/hotplug/pciehp.o drivers/pci/hotplug/pciehp_core.o drivers/pci/hotplug/pciehp_ctrl.o drivers/pci/hotplug/pciehp_pci.o drivers/pci/hotplug/pciehp_hpc.o 

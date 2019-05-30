@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel_telemetry_pltdrv.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/platform/x86/intel_telemetry_pltdrv.ko drivers/platform/x86/intel_telemetry_pltdrv.o drivers/platform/x86/intel_telemetry_pltdrv.mod.o

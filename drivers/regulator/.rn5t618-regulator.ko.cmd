@@ -1,0 +1,1 @@
+cmd_drivers/regulator/rn5t618-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/rn5t618-regulator.ko drivers/regulator/rn5t618-regulator.o drivers/regulator/rn5t618-regulator.mod.o

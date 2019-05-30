@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-pcm3168a.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-pcm3168a.ko sound/soc/codecs/snd-soc-pcm3168a.o sound/soc/codecs/snd-soc-pcm3168a.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-max3355.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/extcon/extcon-max3355.ko drivers/extcon/extcon-max3355.o drivers/extcon/extcon-max3355.mod.o

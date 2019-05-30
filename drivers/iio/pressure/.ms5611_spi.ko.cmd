@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/ms5611_spi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/pressure/ms5611_spi.ko drivers/iio/pressure/ms5611_spi.o drivers/iio/pressure/ms5611_spi.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/fsl_lpuart.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/tty/serial/fsl_lpuart.ko drivers/tty/serial/fsl_lpuart.o drivers/tty/serial/fsl_lpuart.mod.o

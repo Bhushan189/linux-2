@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-zynqmp-gqspi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/spi/spi-zynqmp-gqspi.ko drivers/spi/spi-zynqmp-gqspi.o drivers/spi/spi-zynqmp-gqspi.mod.o

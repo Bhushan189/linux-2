@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ad_sigma_delta.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/adc/ad_sigma_delta.ko drivers/iio/adc/ad_sigma_delta.o drivers/iio/adc/ad_sigma_delta.mod.o

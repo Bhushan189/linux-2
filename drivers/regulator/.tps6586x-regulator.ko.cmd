@@ -1,0 +1,1 @@
+cmd_drivers/regulator/tps6586x-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/tps6586x-regulator.ko drivers/regulator/tps6586x-regulator.o drivers/regulator/tps6586x-regulator.mod.o

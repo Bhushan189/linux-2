@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-palmas.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/extcon/extcon-palmas.ko drivers/extcon/extcon-palmas.o drivers/extcon/extcon-palmas.mod.o

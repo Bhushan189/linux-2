@@ -1,0 +1,1 @@
+cmd_drivers/regulator/mt6397-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/mt6397-regulator.ko drivers/regulator/mt6397-regulator.o drivers/regulator/mt6397-regulator.mod.o

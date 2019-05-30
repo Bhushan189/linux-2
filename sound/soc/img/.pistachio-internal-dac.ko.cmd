@@ -1,0 +1,1 @@
+cmd_sound/soc/img/pistachio-internal-dac.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/img/pistachio-internal-dac.ko sound/soc/img/pistachio-internal-dac.o sound/soc/img/pistachio-internal-dac.mod.o

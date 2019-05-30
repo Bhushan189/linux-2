@@ -1,0 +1,2 @@
+kernel/sound/pcmcia/vx/snd-vxpocket.ko
+kernel/sound/pcmcia/pdaudiocf/snd-pdaudiocf.ko

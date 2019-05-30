@@ -1,0 +1,1 @@
+cmd_drivers/regulator/pcf50633-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/pcf50633-regulator.ko drivers/regulator/pcf50633-regulator.o drivers/regulator/pcf50633-regulator.mod.o

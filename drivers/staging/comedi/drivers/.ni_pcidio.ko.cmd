@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ni_pcidio.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/ni_pcidio.ko drivers/staging/comedi/drivers/ni_pcidio.o drivers/staging/comedi/drivers/ni_pcidio.mod.o

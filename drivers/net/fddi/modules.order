@@ -1,0 +1,2 @@
+kernel/drivers/net/fddi/defxx.ko
+kernel/drivers/net/fddi/skfp/skfp.ko

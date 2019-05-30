@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/hampshire.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/hampshire.ko drivers/input/touchscreen/hampshire.o drivers/input/touchscreen/hampshire.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/regulator/axp20x-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/axp20x-regulator.ko drivers/regulator/axp20x-regulator.o drivers/regulator/axp20x-regulator.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/tests/mtd_oobtest.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mtd/tests/mtd_oobtest.ko drivers/mtd/tests/mtd_oobtest.o drivers/mtd/tests/mtd_oobtest.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-arb-gpio-challenge.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/i2c/muxes/i2c-arb-gpio-challenge.ko drivers/i2c/muxes/i2c-arb-gpio-challenge.o drivers/i2c/muxes/i2c-arb-gpio-challenge.mod.o

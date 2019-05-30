@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/xilinx_uartps.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/tty/serial/xilinx_uartps.ko drivers/tty/serial/xilinx_uartps.o drivers/tty/serial/xilinx_uartps.mod.o

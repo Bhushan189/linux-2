@@ -1,0 +1,1 @@
+cmd_drivers/misc/lkdtm.o := ld -m elf_x86_64   -r -o drivers/misc/lkdtm.o drivers/misc/lkdtm_core.o drivers/misc/lkdtm_bugs.o drivers/misc/lkdtm_heap.o drivers/misc/lkdtm_perms.o drivers/misc/lkdtm_rodata_objcopy.o drivers/misc/lkdtm_usercopy.o 

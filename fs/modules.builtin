@@ -1,0 +1,10 @@
+kernel/fs/binfmt_misc.ko
+kernel/fs/binfmt_script.ko
+kernel/fs/autofs4/autofs4.ko
+kernel/fs/configfs/configfs.ko
+kernel/fs/crypto/fscrypto.ko
+kernel/fs/efivarfs/efivarfs.ko
+kernel/fs/exportfs/exportfs.ko
+kernel/fs/nls/nls_base.ko
+kernel/fs/pstore/pstore.ko
+kernel/fs/pstore/ramoops.ko

@@ -1,0 +1,1 @@
+cmd_drivers/char/xillybus/xillybus_of.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/char/xillybus/xillybus_of.ko drivers/char/xillybus/xillybus_of.o drivers/char/xillybus/xillybus_of.mod.o

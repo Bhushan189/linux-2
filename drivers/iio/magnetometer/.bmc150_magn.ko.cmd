@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/bmc150_magn.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/bmc150_magn.ko drivers/iio/magnetometer/bmc150_magn.o drivers/iio/magnetometer/bmc150_magn.mod.o

@@ -1,0 +1,10 @@
+kernel/drivers/pwm/pwm-atmel-hlcdc.ko
+kernel/drivers/pwm/pwm-cros-ec.ko
+kernel/drivers/pwm/pwm-fsl-ftm.ko
+kernel/drivers/pwm/pwm-lp3943.ko
+kernel/drivers/pwm/pwm-lpss.ko
+kernel/drivers/pwm/pwm-lpss-pci.ko
+kernel/drivers/pwm/pwm-lpss-platform.ko
+kernel/drivers/pwm/pwm-pca9685.ko
+kernel/drivers/pwm/pwm-twl.ko
+kernel/drivers/pwm/pwm-twl-led.ko

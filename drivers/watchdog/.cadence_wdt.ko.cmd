@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/cadence_wdt.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/watchdog/cadence_wdt.ko drivers/watchdog/cadence_wdt.o drivers/watchdog/cadence_wdt.mod.o

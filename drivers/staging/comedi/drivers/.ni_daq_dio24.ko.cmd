@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ni_daq_dio24.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/ni_daq_dio24.ko drivers/staging/comedi/drivers/ni_daq_dio24.o drivers/staging/comedi/drivers/ni_daq_dio24.mod.o

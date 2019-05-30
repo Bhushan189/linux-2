@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/gsc_hpdi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/gsc_hpdi.ko drivers/staging/comedi/drivers/gsc_hpdi.o drivers/staging/comedi/drivers/gsc_hpdi.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/power/bq24735-charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/bq24735-charger.ko drivers/power/bq24735-charger.o drivers/power/bq24735-charger.mod.o

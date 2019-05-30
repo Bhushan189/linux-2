@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/adc/ad7280a.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/adc/ad7280a.ko drivers/staging/iio/adc/ad7280a.o drivers/staging/iio/adc/ad7280a.mod.o

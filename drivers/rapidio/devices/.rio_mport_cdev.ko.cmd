@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/devices/rio_mport_cdev.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/rapidio/devices/rio_mport_cdev.ko drivers/rapidio/devices/rio_mport_cdev.o drivers/rapidio/devices/rio_mport_cdev.mod.o

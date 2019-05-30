@@ -1,0 +1,3 @@
+kernel/drivers/iio/proximity/as3935.ko
+kernel/drivers/iio/proximity/pulsedlight-lidar-lite-v2.ko
+kernel/drivers/iio/proximity/sx9500.ko

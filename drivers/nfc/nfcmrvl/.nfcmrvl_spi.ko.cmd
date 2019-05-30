@@ -1,0 +1,1 @@
+cmd_drivers/nfc/nfcmrvl/nfcmrvl_spi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/nfc/nfcmrvl/nfcmrvl_spi.ko drivers/nfc/nfcmrvl/nfcmrvl_spi.o drivers/nfc/nfcmrvl/nfcmrvl_spi.mod.o

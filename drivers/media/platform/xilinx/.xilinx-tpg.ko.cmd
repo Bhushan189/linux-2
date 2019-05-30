@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/xilinx/xilinx-tpg.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/xilinx/xilinx-tpg.ko drivers/media/platform/xilinx/xilinx-tpg.o drivers/media/platform/xilinx/xilinx-tpg.mod.o

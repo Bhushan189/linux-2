@@ -1,0 +1,1 @@
+cmd_drivers/power/da9052-battery.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/da9052-battery.ko drivers/power/da9052-battery.o drivers/power/da9052-battery.mod.o

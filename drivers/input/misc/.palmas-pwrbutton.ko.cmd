@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/palmas-pwrbutton.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/palmas-pwrbutton.ko drivers/input/misc/palmas-pwrbutton.o drivers/input/misc/palmas-pwrbutton.mod.o

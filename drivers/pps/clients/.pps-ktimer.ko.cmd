@@ -1,0 +1,1 @@
+cmd_drivers/pps/clients/pps-ktimer.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/pps/clients/pps-ktimer.ko drivers/pps/clients/pps-ktimer.o drivers/pps/clients/pps-ktimer.mod.o

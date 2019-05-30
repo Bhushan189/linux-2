@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-arizona.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/extcon/extcon-arizona.ko drivers/extcon/extcon-arizona.o drivers/extcon/extcon-arizona.mod.o

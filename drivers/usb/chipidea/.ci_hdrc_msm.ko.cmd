@@ -1,0 +1,1 @@
+cmd_drivers/usb/chipidea/ci_hdrc_msm.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/chipidea/ci_hdrc_msm.ko drivers/usb/chipidea/ci_hdrc_msm.o drivers/usb/chipidea/ci_hdrc_msm.mod.o

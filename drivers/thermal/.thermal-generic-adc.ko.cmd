@@ -1,0 +1,1 @@
+cmd_drivers/thermal/thermal-generic-adc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/thermal/thermal-generic-adc.ko drivers/thermal/thermal-generic-adc.o drivers/thermal/thermal-generic-adc.mod.o

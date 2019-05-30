@@ -1,0 +1,1 @@
+cmd_drivers/parport/parport_ax88796.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/parport/parport_ax88796.ko drivers/parport/parport_ax88796.o drivers/parport/parport_ax88796.mod.o

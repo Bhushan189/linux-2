@@ -1,0 +1,1 @@
+cmd_drivers/regulator/tps65218-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/tps65218-regulator.ko drivers/regulator/tps65218-regulator.o drivers/regulator/tps65218-regulator.mod.o

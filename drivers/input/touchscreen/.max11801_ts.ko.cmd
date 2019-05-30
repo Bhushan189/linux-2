@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/max11801_ts.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/max11801_ts.ko drivers/input/touchscreen/max11801_ts.o drivers/input/touchscreen/max11801_ts.mod.o

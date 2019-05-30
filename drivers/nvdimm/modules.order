@@ -1,0 +1,4 @@
+kernel/drivers/nvdimm/nd_pmem.ko
+kernel/drivers/nvdimm/nd_btt.ko
+kernel/drivers/nvdimm/nd_blk.ko
+kernel/drivers/nvdimm/nd_e820.ko

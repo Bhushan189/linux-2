@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/max63xx_wdt.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/watchdog/max63xx_wdt.ko drivers/watchdog/max63xx_wdt.o drivers/watchdog/max63xx_wdt.mod.o

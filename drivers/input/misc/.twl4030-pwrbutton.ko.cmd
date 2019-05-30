@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/twl4030-pwrbutton.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/twl4030-pwrbutton.ko drivers/input/misc/twl4030-pwrbutton.o drivers/input/misc/twl4030-pwrbutton.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/parade-ps8622.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/bridge/parade-ps8622.ko drivers/gpu/drm/bridge/parade-ps8622.o drivers/gpu/drm/bridge/parade-ps8622.mod.o

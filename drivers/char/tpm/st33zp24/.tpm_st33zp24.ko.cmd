@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/st33zp24/tpm_st33zp24.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/char/tpm/st33zp24/tpm_st33zp24.ko drivers/char/tpm/st33zp24/tpm_st33zp24.o drivers/char/tpm/st33zp24/tpm_st33zp24.mod.o

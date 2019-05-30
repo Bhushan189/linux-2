@@ -1,0 +1,6 @@
+kernel/drivers/hwtracing/intel_th/intel_th.ko
+kernel/drivers/hwtracing/intel_th/intel_th_pci.ko
+kernel/drivers/hwtracing/intel_th/intel_th_gth.ko
+kernel/drivers/hwtracing/intel_th/intel_th_sth.ko
+kernel/drivers/hwtracing/intel_th/intel_th_msu.ko
+kernel/drivers/hwtracing/intel_th/intel_th_pti.ko

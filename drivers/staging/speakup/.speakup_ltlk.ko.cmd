@@ -1,0 +1,1 @@
+cmd_drivers/staging/speakup/speakup_ltlk.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/speakup/speakup_ltlk.ko drivers/staging/speakup/speakup_ltlk.o drivers/staging/speakup/speakup_ltlk.mod.o

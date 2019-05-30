@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/generic_bl.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/generic_bl.ko drivers/video/backlight/generic_bl.o drivers/video/backlight/generic_bl.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/ti/cpsw_ale.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/ti/cpsw_ale.ko drivers/net/ethernet/ti/cpsw_ale.o drivers/net/ethernet/ti/cpsw_ale.mod.o

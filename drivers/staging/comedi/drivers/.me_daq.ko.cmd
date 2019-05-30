@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/me_daq.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/me_daq.ko drivers/staging/comedi/drivers/me_daq.o drivers/staging/comedi/drivers/me_daq.mod.o

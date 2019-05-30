@@ -1,0 +1,1 @@
+cmd_drivers/power/pcf50633-charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/pcf50633-charger.ko drivers/power/pcf50633-charger.o drivers/power/pcf50633-charger.mod.o

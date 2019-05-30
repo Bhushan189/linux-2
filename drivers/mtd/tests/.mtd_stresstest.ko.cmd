@@ -1,0 +1,1 @@
+cmd_drivers/mtd/tests/mtd_stresstest.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mtd/tests/mtd_stresstest.ko drivers/mtd/tests/mtd_stresstest.o drivers/mtd/tests/mtd_stresstest.mod.o

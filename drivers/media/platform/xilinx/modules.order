@@ -1,0 +1,3 @@
+kernel/drivers/media/platform/xilinx/xilinx-video.ko
+kernel/drivers/media/platform/xilinx/xilinx-tpg.ko
+kernel/drivers/media/platform/xilinx/xilinx-vtc.ko

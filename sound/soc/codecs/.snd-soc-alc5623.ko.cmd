@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-alc5623.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-alc5623.ko sound/soc/codecs/snd-soc-alc5623.o sound/soc/codecs/snd-soc-alc5623.mod.o

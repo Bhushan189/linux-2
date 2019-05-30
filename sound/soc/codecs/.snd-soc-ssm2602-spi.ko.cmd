@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-ssm2602-spi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-ssm2602-spi.ko sound/soc/codecs/snd-soc-ssm2602-spi.o sound/soc/codecs/snd-soc-ssm2602-spi.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/regulator/rt5033-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/rt5033-regulator.ko drivers/regulator/rt5033-regulator.o drivers/regulator/rt5033-regulator.mod.o

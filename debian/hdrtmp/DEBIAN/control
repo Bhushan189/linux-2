@@ -1,0 +1,14 @@
+Package: linux-headers-4.8.13-g2b627209-dirty
+Source: linux-4.8.13-g2b627209-dirty
+Version: 4.8.13-g2b627209-dirty-103
+Architecture: amd64
+Maintainer: Anonymous <root@ubuntu>
+Installed-Size: 73476
+Provides: linux-headers, linux-headers-2.6
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.8.13-g2b627209-dirty on amd64
+ This package provides kernel header files for 4.8.13-g2b627209-dirty on amd64
+ .
+ This is useful for people who need to build external modules

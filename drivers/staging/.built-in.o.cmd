@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.o :=  ld -m elf_x86_64   -r -o drivers/staging/built-in.o drivers/staging/media/built-in.o drivers/staging/vme/built-in.o drivers/staging/board/built-in.o drivers/staging/unisys/built-in.o 

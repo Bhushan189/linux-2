@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cavium/liquidio/liquidio.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/cavium/liquidio/liquidio.ko drivers/net/ethernet/cavium/liquidio/liquidio.o drivers/net/ethernet/cavium/liquidio/liquidio.mod.o

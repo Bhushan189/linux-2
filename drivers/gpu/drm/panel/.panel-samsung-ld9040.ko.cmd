@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-samsung-ld9040.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/panel/panel-samsung-ld9040.ko drivers/gpu/drm/panel/panel-samsung-ld9040.o drivers/gpu/drm/panel/panel-samsung-ld9040.mod.o

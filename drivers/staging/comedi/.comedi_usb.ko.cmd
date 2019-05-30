@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/comedi_usb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/comedi_usb.ko drivers/staging/comedi/comedi_usb.o drivers/staging/comedi/comedi_usb.mod.o

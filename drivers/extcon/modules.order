@@ -1,0 +1,13 @@
+kernel/drivers/extcon/extcon-adc-jack.ko
+kernel/drivers/extcon/extcon-arizona.ko
+kernel/drivers/extcon/extcon-axp288.ko
+kernel/drivers/extcon/extcon-gpio.ko
+kernel/drivers/extcon/extcon-max14577.ko
+kernel/drivers/extcon/extcon-max3355.ko
+kernel/drivers/extcon/extcon-max77693.ko
+kernel/drivers/extcon/extcon-max77843.ko
+kernel/drivers/extcon/extcon-max8997.ko
+kernel/drivers/extcon/extcon-palmas.ko
+kernel/drivers/extcon/extcon-rt8973a.ko
+kernel/drivers/extcon/extcon-sm5502.ko
+kernel/drivers/extcon/extcon-usb-gpio.ko

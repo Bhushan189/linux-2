@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-usb-gpio.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/extcon/extcon-usb-gpio.ko drivers/extcon/extcon-usb-gpio.o drivers/extcon/extcon-usb-gpio.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/p54/p54spi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/intersil/p54/p54spi.ko drivers/net/wireless/intersil/p54/p54spi.o drivers/net/wireless/intersil/p54/p54spi.mod.o

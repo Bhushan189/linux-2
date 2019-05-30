@@ -1,0 +1,1 @@
+cmd_drivers/usb/isp1760/isp1760.o := ld -m elf_x86_64   -r -o drivers/usb/isp1760/isp1760.o drivers/usb/isp1760/isp1760-core.o drivers/usb/isp1760/isp1760-if.o drivers/usb/isp1760/isp1760-hcd.o drivers/usb/isp1760/isp1760-udc.o 

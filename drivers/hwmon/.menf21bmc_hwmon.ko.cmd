@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/menf21bmc_hwmon.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/menf21bmc_hwmon.ko drivers/hwmon/menf21bmc_hwmon.o drivers/hwmon/menf21bmc_hwmon.mod.o

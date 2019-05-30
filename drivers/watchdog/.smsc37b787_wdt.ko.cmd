@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/smsc37b787_wdt.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/watchdog/smsc37b787_wdt.ko drivers/watchdog/smsc37b787_wdt.o drivers/watchdog/smsc37b787_wdt.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/devices/tsi721_mport.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/rapidio/devices/tsi721_mport.ko drivers/rapidio/devices/tsi721_mport.o drivers/rapidio/devices/tsi721_mport.mod.o

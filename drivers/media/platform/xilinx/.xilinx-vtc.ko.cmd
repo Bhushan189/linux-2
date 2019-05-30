@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/xilinx/xilinx-vtc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/xilinx/xilinx-vtc.ko drivers/media/platform/xilinx/xilinx-vtc.o drivers/media/platform/xilinx/xilinx-vtc.mod.o

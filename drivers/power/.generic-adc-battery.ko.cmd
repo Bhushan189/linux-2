@@ -1,0 +1,1 @@
+cmd_drivers/power/generic-adc-battery.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/generic-adc-battery.ko drivers/power/generic-adc-battery.o drivers/power/generic-adc-battery.mod.o

@@ -1,0 +1,1 @@
+cmd_sound/pcmcia/vx/snd-vxpocket.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/pcmcia/vx/snd-vxpocket.ko sound/pcmcia/vx/snd-vxpocket.o sound/pcmcia/vx/snd-vxpocket.mod.o

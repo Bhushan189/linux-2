@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/atmel/atmel.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/atmel/atmel.ko drivers/net/wireless/atmel/atmel.o drivers/net/wireless/atmel/atmel.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwtracing/stm/stm_heartbeat.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/hwtracing/stm/stm_heartbeat.ko drivers/hwtracing/stm/stm_heartbeat.o drivers/hwtracing/stm/stm_heartbeat.mod.o

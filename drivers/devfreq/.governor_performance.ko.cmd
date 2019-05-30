@@ -1,0 +1,1 @@
+cmd_drivers/devfreq/governor_performance.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/devfreq/governor_performance.ko drivers/devfreq/governor_performance.o drivers/devfreq/governor_performance.mod.o

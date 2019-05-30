@@ -1,0 +1,46 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=";
+
+MODULE_ALIAS("i2c:adt75");
+MODULE_ALIAS("i2c:ds1775");
+MODULE_ALIAS("i2c:ds75");
+MODULE_ALIAS("i2c:ds7505");
+MODULE_ALIAS("i2c:g751");
+MODULE_ALIAS("i2c:lm75");
+MODULE_ALIAS("i2c:lm75a");
+MODULE_ALIAS("i2c:lm75b");
+MODULE_ALIAS("i2c:max6625");
+MODULE_ALIAS("i2c:max6626");
+MODULE_ALIAS("i2c:mcp980x");
+MODULE_ALIAS("i2c:stds75");
+MODULE_ALIAS("i2c:tcn75");
+MODULE_ALIAS("i2c:tmp100");
+MODULE_ALIAS("i2c:tmp101");
+MODULE_ALIAS("i2c:tmp105");
+MODULE_ALIAS("i2c:tmp112");
+MODULE_ALIAS("i2c:tmp175");
+MODULE_ALIAS("i2c:tmp275");
+MODULE_ALIAS("i2c:tmp75");
+MODULE_ALIAS("i2c:tmp75c");
+
+MODULE_INFO(srcversion, "AE515215FB260CED344448A");

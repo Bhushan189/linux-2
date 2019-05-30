@@ -1,0 +1,5 @@
+kernel/drivers/phy/phy-bcm-kona-usb2.ko
+kernel/drivers/phy/phy-pxa-28nm-usb2.ko
+kernel/drivers/phy/phy-pxa-28nm-hsic.ko
+kernel/drivers/phy/phy-exynos-usb2.ko
+kernel/drivers/phy/phy-tusb1210.ko

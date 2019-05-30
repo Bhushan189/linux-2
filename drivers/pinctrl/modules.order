@@ -1,0 +1,4 @@
+kernel/drivers/pinctrl/pinctrl-amd.ko
+kernel/drivers/pinctrl/pinctrl-max77620.ko
+kernel/drivers/pinctrl/pinctrl-palmas.ko
+kernel/drivers/pinctrl/pinctrl-single.ko

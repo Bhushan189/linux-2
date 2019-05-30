@@ -1,0 +1,1 @@
+cmd_drivers/iio/frequency/ad9523.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/frequency/ad9523.ko drivers/iio/frequency/ad9523.o drivers/iio/frequency/ad9523.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/ili922x.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/ili922x.ko drivers/video/backlight/ili922x.o drivers/video/backlight/ili922x.mod.o

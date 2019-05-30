@@ -1,0 +1,1 @@
+cmd_drivers/net/caif/cfspi_slave.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/caif/cfspi_slave.ko drivers/net/caif/cfspi_slave.o drivers/net/caif/cfspi_slave.mod.o

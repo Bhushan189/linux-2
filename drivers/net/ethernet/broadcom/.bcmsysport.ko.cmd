@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/broadcom/bcmsysport.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/broadcom/bcmsysport.ko drivers/net/ethernet/broadcom/bcmsysport.o drivers/net/ethernet/broadcom/bcmsysport.mod.o

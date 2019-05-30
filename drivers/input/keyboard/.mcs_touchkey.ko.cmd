@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/mcs_touchkey.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/mcs_touchkey.ko drivers/input/keyboard/mcs_touchkey.o drivers/input/keyboard/mcs_touchkey.mod.o

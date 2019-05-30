@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/sky81452-backlight.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/sky81452-backlight.ko drivers/video/backlight/sky81452-backlight.o drivers/video/backlight/sky81452-backlight.mod.o

@@ -1,0 +1,14 @@
+Package: linux-image-4.8.13-g2b627209-dirty
+Source: linux-4.8.13-g2b627209-dirty
+Version: 4.8.13-g2b627209-dirty-103
+Architecture: amd64
+Maintainer: Anonymous <root@ubuntu>
+Installed-Size: 55005
+Suggests: linux-firmware-image-4.8.13-g2b627209-dirty
+Provides: linux-image, linux-image-2.6, linux-modules-4.8.13-g2b627209-dirty
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.8.13-g2b627209-dirty
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.8.13-g2b627209-dirty.

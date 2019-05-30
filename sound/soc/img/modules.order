@@ -1,0 +1,6 @@
+kernel/sound/soc/img/img-i2s-in.ko
+kernel/sound/soc/img/img-i2s-out.ko
+kernel/sound/soc/img/img-parallel-out.ko
+kernel/sound/soc/img/img-spdif-in.ko
+kernel/sound/soc/img/img-spdif-out.ko
+kernel/sound/soc/img/pistachio-internal-dac.ko

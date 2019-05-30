@@ -1,0 +1,4 @@
+kernel/drivers/usb/phy/phy-generic.ko
+kernel/drivers/usb/phy/phy-tahvo.ko
+kernel/drivers/usb/phy/phy-gpio-vbus-usb.ko
+kernel/drivers/usb/phy/phy-isp1301.ko

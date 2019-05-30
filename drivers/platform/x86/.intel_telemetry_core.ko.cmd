@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel_telemetry_core.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/platform/x86/intel_telemetry_core.ko drivers/platform/x86/intel_telemetry_core.o drivers/platform/x86/intel_telemetry_core.mod.o

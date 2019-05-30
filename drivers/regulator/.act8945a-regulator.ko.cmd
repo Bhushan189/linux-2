@@ -1,0 +1,1 @@
+cmd_drivers/regulator/act8945a-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/act8945a-regulator.ko drivers/regulator/act8945a-regulator.o drivers/regulator/act8945a-regulator.mod.o

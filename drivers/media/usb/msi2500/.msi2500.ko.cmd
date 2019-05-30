@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/msi2500/msi2500.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/msi2500/msi2500.ko drivers/media/usb/msi2500/msi2500.o drivers/media/usb/msi2500/msi2500.mod.o

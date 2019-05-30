@@ -1,0 +1,1 @@
+cmd_drivers/usb/chipidea/usbmisc_imx.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/chipidea/usbmisc_imx.ko drivers/usb/chipidea/usbmisc_imx.o drivers/usb/chipidea/usbmisc_imx.mod.o

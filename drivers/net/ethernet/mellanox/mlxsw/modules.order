@@ -1,0 +1,4 @@
+kernel/drivers/net/ethernet/mellanox/mlxsw/mlxsw_core.ko
+kernel/drivers/net/ethernet/mellanox/mlxsw/mlxsw_pci.ko
+kernel/drivers/net/ethernet/mellanox/mlxsw/mlxsw_switchx2.ko
+kernel/drivers/net/ethernet/mellanox/mlxsw/mlxsw_spectrum.ko

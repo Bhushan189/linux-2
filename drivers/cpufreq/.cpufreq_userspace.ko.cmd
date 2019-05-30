@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/cpufreq_userspace.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/cpufreq/cpufreq_userspace.ko drivers/cpufreq/cpufreq_userspace.o drivers/cpufreq/cpufreq_userspace.mod.o

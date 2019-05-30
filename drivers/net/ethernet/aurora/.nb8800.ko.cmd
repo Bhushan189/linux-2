@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/aurora/nb8800.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/aurora/nb8800.ko drivers/net/ethernet/aurora/nb8800.o drivers/net/ethernet/aurora/nb8800.mod.o

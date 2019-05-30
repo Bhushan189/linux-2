@@ -1,0 +1,1 @@
+cmd_drivers/of/built-in.o :=  ld -m elf_x86_64   -r -o drivers/of/built-in.o drivers/of/base.o drivers/of/device.o drivers/of/platform.o drivers/of/dynamic.o drivers/of/address.o drivers/of/irq.o drivers/of/of_net.o drivers/of/of_pci.o drivers/of/of_pci_irq.o drivers/of/resolver.o drivers/of/overlay.o 

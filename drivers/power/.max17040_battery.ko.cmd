@@ -1,0 +1,1 @@
+cmd_drivers/power/max17040_battery.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/max17040_battery.ko drivers/power/max17040_battery.o drivers/power/max17040_battery.mod.o

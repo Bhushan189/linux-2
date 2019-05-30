@@ -1,0 +1,3 @@
+kernel/drivers/hwtracing/stm/stm_core.ko
+kernel/drivers/hwtracing/stm/stm_console.ko
+kernel/drivers/hwtracing/stm/stm_heartbeat.ko

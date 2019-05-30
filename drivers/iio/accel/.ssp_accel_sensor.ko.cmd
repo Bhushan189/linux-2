@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/ssp_accel_sensor.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/accel/ssp_accel_sensor.ko drivers/iio/accel/ssp_accel_sensor.o drivers/iio/accel/ssp_accel_sensor.mod.o

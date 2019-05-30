@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/microchip/encx24j600.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/microchip/encx24j600.ko drivers/net/ethernet/microchip/encx24j600.o drivers/net/ethernet/microchip/encx24j600.mod.o

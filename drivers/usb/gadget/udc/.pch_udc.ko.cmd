@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/pch_udc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/udc/pch_udc.ko drivers/usb/gadget/udc/pch_udc.o drivers/usb/gadget/udc/pch_udc.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/tests/mtd_torturetest.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mtd/tests/mtd_torturetest.ko drivers/mtd/tests/mtd_torturetest.o drivers/mtd/tests/mtd_torturetest.mod.o

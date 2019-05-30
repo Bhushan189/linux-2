@@ -1,0 +1,1 @@
+cmd_drivers/scsi/aic94xx/aic94xx.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/scsi/aic94xx/aic94xx.ko drivers/scsi/aic94xx/aic94xx.o drivers/scsi/aic94xx/aic94xx.mod.o

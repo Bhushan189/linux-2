@@ -1,0 +1,1 @@
+cmd_drivers/ipack/devices/ipoctal.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/ipack/devices/ipoctal.ko drivers/ipack/devices/ipoctal.o drivers/ipack/devices/ipoctal.mod.o

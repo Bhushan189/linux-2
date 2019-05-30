@@ -1,0 +1,1 @@
+cmd_drivers/regulator/act8865-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/act8865-regulator.ko drivers/regulator/act8865-regulator.o drivers/regulator/act8865-regulator.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/idtcps.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/rapidio/switches/idtcps.ko drivers/rapidio/switches/idtcps.o drivers/rapidio/switches/idtcps.mod.o

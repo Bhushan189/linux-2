@@ -1,0 +1,1 @@
+cmd_drivers/pci/hotplug/cpcihp_generic.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/pci/hotplug/cpcihp_generic.ko drivers/pci/hotplug/cpcihp_generic.o drivers/pci/hotplug/cpcihp_generic.mod.o

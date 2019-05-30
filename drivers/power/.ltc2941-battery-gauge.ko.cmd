@@ -1,0 +1,1 @@
+cmd_drivers/power/ltc2941-battery-gauge.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/ltc2941-battery-gauge.ko drivers/power/ltc2941-battery-gauge.o drivers/power/ltc2941-battery-gauge.mod.o

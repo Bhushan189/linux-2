@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/mma7455_spi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/accel/mma7455_spi.ko drivers/iio/accel/mma7455_spi.o drivers/iio/accel/mma7455_spi.mod.o

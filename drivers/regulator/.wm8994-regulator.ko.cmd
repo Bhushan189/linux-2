@@ -1,0 +1,1 @@
+cmd_drivers/regulator/wm8994-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/wm8994-regulator.ko drivers/regulator/wm8994-regulator.o drivers/regulator/wm8994-regulator.mod.o

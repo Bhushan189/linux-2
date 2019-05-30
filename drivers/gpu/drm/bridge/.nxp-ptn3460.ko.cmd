@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/nxp-ptn3460.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/bridge/nxp-ptn3460.ko drivers/gpu/drm/bridge/nxp-ptn3460.o drivers/gpu/drm/bridge/nxp-ptn3460.mod.o

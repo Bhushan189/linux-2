@@ -1,0 +1,1 @@
+cmd_drivers/mfd/rdc321x-southbridge.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mfd/rdc321x-southbridge.ko drivers/mfd/rdc321x-southbridge.o drivers/mfd/rdc321x-southbridge.mod.o

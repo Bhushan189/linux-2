@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/mag3110.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/mag3110.ko drivers/iio/magnetometer/mag3110.o drivers/iio/magnetometer/mag3110.mod.o

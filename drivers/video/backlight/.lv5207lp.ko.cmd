@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/lv5207lp.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/lv5207lp.ko drivers/video/backlight/lv5207lp.o drivers/video/backlight/lv5207lp.mod.o

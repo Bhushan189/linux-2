@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/bma220_spi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/accel/bma220_spi.ko drivers/iio/accel/bma220_spi.o drivers/iio/accel/bma220_spi.mod.o

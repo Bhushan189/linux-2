@@ -1,0 +1,1 @@
+cmd_drivers/devfreq/governor_powersave.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/devfreq/governor_powersave.ko drivers/devfreq/governor_powersave.o drivers/devfreq/governor_powersave.mod.o

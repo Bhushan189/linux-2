@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/addi_apci_1500.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/addi_apci_1500.ko drivers/staging/comedi/drivers/addi_apci_1500.o drivers/staging/comedi/drivers/addi_apci_1500.mod.o

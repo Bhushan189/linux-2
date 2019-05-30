@@ -1,0 +1,1 @@
+cmd_drivers/power/reset/reboot-mode.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/reset/reboot-mode.ko drivers/power/reset/reboot-mode.o drivers/power/reset/reboot-mode.mod.o

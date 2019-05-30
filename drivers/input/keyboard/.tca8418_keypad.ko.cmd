@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/tca8418_keypad.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/tca8418_keypad.ko drivers/input/keyboard/tca8418_keypad.o drivers/input/keyboard/tca8418_keypad.mod.o

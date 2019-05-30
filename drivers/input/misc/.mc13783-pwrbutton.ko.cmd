@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/mc13783-pwrbutton.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/mc13783-pwrbutton.ko drivers/input/misc/mc13783-pwrbutton.o drivers/input/misc/mc13783-pwrbutton.mod.o

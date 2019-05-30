@@ -1,0 +1,1 @@
+cmd_drivers/mtd/tests/mtd_subpagetest.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mtd/tests/mtd_subpagetest.ko drivers/mtd/tests/mtd_subpagetest.o drivers/mtd/tests/mtd_subpagetest.mod.o

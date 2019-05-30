@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/vivid/vivid.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/vivid/vivid.ko drivers/media/platform/vivid/vivid.o drivers/media/platform/vivid/vivid.mod.o

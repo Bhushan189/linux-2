@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-mux-reg.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/i2c/muxes/i2c-mux-reg.ko drivers/i2c/muxes/i2c-mux-reg.o drivers/i2c/muxes/i2c-mux-reg.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/pinctrl-max77620.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/pinctrl/pinctrl-max77620.ko drivers/pinctrl/pinctrl-max77620.o drivers/pinctrl/pinctrl-max77620.mod.o

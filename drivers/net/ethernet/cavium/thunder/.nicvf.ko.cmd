@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cavium/thunder/nicvf.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/cavium/thunder/nicvf.ko drivers/net/ethernet/cavium/thunder/nicvf.o drivers/net/ethernet/cavium/thunder/nicvf.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/power/rt9455_charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/rt9455_charger.ko drivers/power/rt9455_charger.o drivers/power/rt9455_charger.mod.o

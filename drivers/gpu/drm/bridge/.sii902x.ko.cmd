@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/sii902x.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/bridge/sii902x.ko drivers/gpu/drm/bridge/sii902x.o drivers/gpu/drm/bridge/sii902x.mod.o

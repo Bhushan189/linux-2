@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/cap11xx.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/cap11xx.ko drivers/input/keyboard/cap11xx.o drivers/input/keyboard/cap11xx.mod.o

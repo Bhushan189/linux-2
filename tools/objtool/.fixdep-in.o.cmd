@@ -1,0 +1,1 @@
+cmd_/home/vt-cs/mlaghari/kernels/linux-4.18.13/tools/objtool/fixdep-in.o :=  ld -r -o /home/vt-cs/mlaghari/kernels/linux-4.18.13/tools/objtool/fixdep-in.o  /home/vt-cs/mlaghari/kernels/linux-4.18.13/tools/objtool/fixdep.o

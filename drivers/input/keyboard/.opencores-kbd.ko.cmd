@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/opencores-kbd.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/opencores-kbd.ko drivers/input/keyboard/opencores-kbd.o drivers/input/keyboard/opencores-kbd.mod.o

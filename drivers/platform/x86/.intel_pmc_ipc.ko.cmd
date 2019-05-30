@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel_pmc_ipc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/platform/x86/intel_pmc_ipc.ko drivers/platform/x86/intel_pmc_ipc.o drivers/platform/x86/intel_pmc_ipc.mod.o

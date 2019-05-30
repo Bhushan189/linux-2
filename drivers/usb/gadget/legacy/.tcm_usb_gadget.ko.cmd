@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/tcm_usb_gadget.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/legacy/tcm_usb_gadget.ko drivers/usb/gadget/legacy/tcm_usb_gadget.o drivers/usb/gadget/legacy/tcm_usb_gadget.mod.o

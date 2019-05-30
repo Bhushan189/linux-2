@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/stmpe-keypad.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/stmpe-keypad.ko drivers/input/keyboard/stmpe-keypad.o drivers/input/keyboard/stmpe-keypad.mod.o

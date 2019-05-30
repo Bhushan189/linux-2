@@ -1,0 +1,1 @@
+cmd_drivers/net/can/softing/softing_cs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/can/softing/softing_cs.ko drivers/net/can/softing/softing_cs.o drivers/net/can/softing/softing_cs.mod.o

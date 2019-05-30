@@ -1,0 +1,1 @@
+cmd_drivers/staging/clocking-wizard/clk-xlnx-clock-wizard.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/clocking-wizard/clk-xlnx-clock-wizard.ko drivers/staging/clocking-wizard/clk-xlnx-clock-wizard.o drivers/staging/clocking-wizard/clk-xlnx-clock-wizard.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/vmk80xx.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/vmk80xx.ko drivers/staging/comedi/drivers/vmk80xx.o drivers/staging/comedi/drivers/vmk80xx.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/power/lp8788-charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/lp8788-charger.ko drivers/power/lp8788-charger.o drivers/power/lp8788-charger.mod.o

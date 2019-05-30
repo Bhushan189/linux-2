@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/tsi57x.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/rapidio/switches/tsi57x.ko drivers/rapidio/switches/tsi57x.o drivers/rapidio/switches/tsi57x.mod.o

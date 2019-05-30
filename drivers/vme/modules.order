@@ -1,0 +1,3 @@
+kernel/drivers/vme/bridges/vme_ca91cx42.ko
+kernel/drivers/vme/bridges/vme_tsi148.ko
+kernel/drivers/vme/boards/vme_vmivme7805.ko

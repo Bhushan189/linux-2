@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/adl_pci6208.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/adl_pci6208.ko drivers/staging/comedi/drivers/adl_pci6208.o drivers/staging/comedi/drivers/adl_pci6208.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/rtl2832_sdr.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/rtl2832_sdr.ko drivers/media/dvb-frontends/rtl2832_sdr.o drivers/media/dvb-frontends/rtl2832_sdr.mod.o

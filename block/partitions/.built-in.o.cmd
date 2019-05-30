@@ -1,0 +1,1 @@
+cmd_block/partitions/built-in.o :=  ld -m elf_x86_64   -r -o block/partitions/built-in.o block/partitions/check.o block/partitions/aix.o block/partitions/mac.o block/partitions/ldm.o block/partitions/msdos.o block/partitions/efi.o block/partitions/karma.o 

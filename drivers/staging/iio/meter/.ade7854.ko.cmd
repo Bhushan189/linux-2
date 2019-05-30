@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/meter/ade7854.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/meter/ade7854.ko drivers/staging/iio/meter/ade7854.o drivers/staging/iio/meter/ade7854.mod.o

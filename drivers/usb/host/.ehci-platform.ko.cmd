@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/ehci-platform.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/host/ehci-platform.ko drivers/usb/host/ehci-platform.o drivers/usb/host/ehci-platform.mod.o

@@ -1,0 +1,11 @@
+Package: linux-firmware-image-4.8.13-g2b627209-dirty
+Source: linux-4.8.13-g2b627209-dirty
+Version: 4.8.13-g2b627209-dirty-103
+Architecture: amd64
+Maintainer: Anonymous <root@ubuntu>
+Installed-Size: 2071
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel firmware, version 4.8.13-g2b627209-dirty
+ This package contains firmware from the Linux kernel, version 4.8.13-g2b627209-dirty.

@@ -1,0 +1,1 @@
+cmd_drivers/regulator/max8997-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/max8997-regulator.ko drivers/regulator/max8997-regulator.o drivers/regulator/max8997-regulator.mod.o

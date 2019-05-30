@@ -1,0 +1,1 @@
+cmd_sound/pcmcia/pdaudiocf/snd-pdaudiocf.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/pcmcia/pdaudiocf/snd-pdaudiocf.ko sound/pcmcia/pdaudiocf/snd-pdaudiocf.o sound/pcmcia/pdaudiocf/snd-pdaudiocf.mod.o

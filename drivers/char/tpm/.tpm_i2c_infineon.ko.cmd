@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm_i2c_infineon.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/char/tpm/tpm_i2c_infineon.ko drivers/char/tpm/tpm_i2c_infineon.o drivers/char/tpm/tpm_i2c_infineon.mod.o

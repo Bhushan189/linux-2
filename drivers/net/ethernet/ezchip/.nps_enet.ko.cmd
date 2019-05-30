@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/ezchip/nps_enet.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/ezchip/nps_enet.ko drivers/net/ethernet/ezchip/nps_enet.o drivers/net/ethernet/ezchip/nps_enet.mod.o

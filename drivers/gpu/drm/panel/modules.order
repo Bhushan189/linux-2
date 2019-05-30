@@ -1,0 +1,7 @@
+kernel/drivers/gpu/drm/panel/panel-simple.ko
+kernel/drivers/gpu/drm/panel/panel-lg-lg4573.ko
+kernel/drivers/gpu/drm/panel/panel-panasonic-vvx10f034n00.ko
+kernel/drivers/gpu/drm/panel/panel-samsung-ld9040.ko
+kernel/drivers/gpu/drm/panel/panel-samsung-s6e8aa0.ko
+kernel/drivers/gpu/drm/panel/panel-sharp-lq101r1sx01.ko
+kernel/drivers/gpu/drm/panel/panel-sharp-ls043t1le01.ko

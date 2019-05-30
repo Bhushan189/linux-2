@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-lg-lg4573.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/panel/panel-lg-lg4573.ko drivers/gpu/drm/panel/panel-lg-lg4573.o drivers/gpu/drm/panel/panel-lg-lg4573.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/frequency/adf4350.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/frequency/adf4350.ko drivers/iio/frequency/adf4350.o drivers/iio/frequency/adf4350.mod.o

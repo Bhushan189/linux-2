@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/amd5536udc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/udc/amd5536udc.ko drivers/usb/gadget/udc/amd5536udc.o drivers/usb/gadget/udc/amd5536udc.mod.o

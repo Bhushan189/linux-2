@@ -1,0 +1,1 @@
+cmd_drivers/power/da9150-charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/da9150-charger.ko drivers/power/da9150-charger.o drivers/power/da9150-charger.mod.o

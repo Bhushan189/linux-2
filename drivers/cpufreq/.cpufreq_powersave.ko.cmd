@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/cpufreq_powersave.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/cpufreq/cpufreq_powersave.ko drivers/cpufreq/cpufreq_powersave.o drivers/cpufreq/cpufreq_powersave.mod.o

@@ -1,0 +1,4 @@
+linux-firmware-image-4.8.13-g2b627209-dirty_4.8.13-g2b627209-dirty-103_amd64.deb kernel optional
+linux-headers-4.8.13-g2b627209-dirty_4.8.13-g2b627209-dirty-103_amd64.deb kernel optional
+linux-image-4.8.13-g2b627209-dirty_4.8.13-g2b627209-dirty-103_amd64.deb kernel optional
+linux-libc-dev_4.8.13-g2b627209-dirty-103_amd64.deb devel optional

@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ke_counter.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/ke_counter.ko drivers/staging/comedi/drivers/ke_counter.o drivers/staging/comedi/drivers/ke_counter.mod.o

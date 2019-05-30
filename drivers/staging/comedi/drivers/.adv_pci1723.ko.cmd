@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/adv_pci1723.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/adv_pci1723.ko drivers/staging/comedi/drivers/adv_pci1723.o drivers/staging/comedi/drivers/adv_pci1723.mod.o

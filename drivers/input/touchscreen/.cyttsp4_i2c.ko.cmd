@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/cyttsp4_i2c.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/cyttsp4_i2c.ko drivers/input/touchscreen/cyttsp4_i2c.o drivers/input/touchscreen/cyttsp4_i2c.mod.o

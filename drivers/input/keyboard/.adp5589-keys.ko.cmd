@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/adp5589-keys.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/adp5589-keys.ko drivers/input/keyboard/adp5589-keys.o drivers/input/keyboard/adp5589-keys.mod.o

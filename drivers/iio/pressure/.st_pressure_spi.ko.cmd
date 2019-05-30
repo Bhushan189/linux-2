@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/st_pressure_spi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/pressure/st_pressure_spi.ko drivers/iio/pressure/st_pressure_spi.o drivers/iio/pressure/st_pressure_spi.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/power/tps65217_charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/tps65217_charger.ko drivers/power/tps65217_charger.o drivers/power/tps65217_charger.mod.o

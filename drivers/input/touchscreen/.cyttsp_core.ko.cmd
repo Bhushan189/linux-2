@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/cyttsp_core.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/cyttsp_core.ko drivers/input/touchscreen/cyttsp_core.o drivers/input/touchscreen/cyttsp_core.mod.o

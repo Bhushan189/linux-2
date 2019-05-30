@@ -1,0 +1,1 @@
+cmd_drivers/phy/phy-pxa-28nm-hsic.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/phy/phy-pxa-28nm-hsic.ko drivers/phy/phy-pxa-28nm-hsic.o drivers/phy/phy-pxa-28nm-hsic.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/twl4030-madc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/adc/twl4030-madc.ko drivers/iio/adc/twl4030-madc.o drivers/iio/adc/twl4030-madc.mod.o

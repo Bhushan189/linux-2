@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/xen-fbfront.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/xen-fbfront.ko drivers/video/fbdev/xen-fbfront.o drivers/video/fbdev/xen-fbfront.mod.o

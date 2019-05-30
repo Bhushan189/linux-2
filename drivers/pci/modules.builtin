@@ -1,0 +1,2 @@
+kernel/drivers/pci/pci-stub.ko
+kernel/drivers/pci/hotplug/shpchp.ko

@@ -1,0 +1,1 @@
+cmd_drivers/regulator/userspace-consumer.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/userspace-consumer.ko drivers/regulator/userspace-consumer.o drivers/regulator/userspace-consumer.mod.o

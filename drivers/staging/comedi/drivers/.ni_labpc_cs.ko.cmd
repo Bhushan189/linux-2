@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ni_labpc_cs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/ni_labpc_cs.ko drivers/staging/comedi/drivers/ni_labpc_cs.o drivers/staging/comedi/drivers/ni_labpc_cs.mod.o

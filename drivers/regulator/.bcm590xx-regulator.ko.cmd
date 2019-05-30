@@ -1,0 +1,1 @@
+cmd_drivers/regulator/bcm590xx-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/bcm590xx-regulator.ko drivers/regulator/bcm590xx-regulator.o drivers/regulator/bcm590xx-regulator.mod.o

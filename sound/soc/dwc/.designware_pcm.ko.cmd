@@ -1,0 +1,1 @@
+cmd_sound/soc/dwc/designware_pcm.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/dwc/designware_pcm.ko sound/soc/dwc/designware_pcm.o sound/soc/dwc/designware_pcm.mod.o

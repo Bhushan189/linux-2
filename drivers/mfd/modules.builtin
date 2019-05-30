@@ -1,0 +1,2 @@
+kernel/drivers/mfd/mfd-core.ko
+kernel/drivers/mfd/ab3100-otp.ko

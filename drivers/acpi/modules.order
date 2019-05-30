@@ -1,0 +1,12 @@
+kernel/drivers/acpi/apei/einj.ko
+kernel/drivers/acpi/apei/erst-dbg.ko
+kernel/drivers/acpi/dptf/dptf_power.ko
+kernel/drivers/acpi/acpi_ipmi.ko
+kernel/drivers/acpi/ac.ko
+kernel/drivers/acpi/nfit/nfit.ko
+kernel/drivers/acpi/battery.ko
+kernel/drivers/acpi/sbshc.ko
+kernel/drivers/acpi/sbs.ko
+kernel/drivers/acpi/custom_method.ko
+kernel/drivers/acpi/acpi_extlog.ko
+kernel/drivers/acpi/acpi_configfs.ko

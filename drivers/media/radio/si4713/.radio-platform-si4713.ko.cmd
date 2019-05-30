@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/si4713/radio-platform-si4713.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/si4713/radio-platform-si4713.ko drivers/media/radio/si4713/radio-platform-si4713.o drivers/media/radio/si4713/radio-platform-si4713.mod.o

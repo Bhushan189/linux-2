@@ -1,0 +1,1 @@
+cmd_drivers/power/isp1704_charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/isp1704_charger.ko drivers/power/isp1704_charger.o drivers/power/isp1704_charger.mod.o

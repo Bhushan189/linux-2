@@ -1,0 +1,2 @@
+kernel/drivers/mailbox/mailbox-test.ko
+kernel/drivers/mailbox/mailbox-altera.ko

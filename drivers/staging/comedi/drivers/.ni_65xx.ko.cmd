@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ni_65xx.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/ni_65xx.ko drivers/staging/comedi/drivers/ni_65xx.o drivers/staging/comedi/drivers/ni_65xx.mod.o

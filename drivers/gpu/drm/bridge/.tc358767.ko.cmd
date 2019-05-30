@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/tc358767.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/bridge/tc358767.ko drivers/gpu/drm/bridge/tc358767.o drivers/gpu/drm/bridge/tc358767.mod.o

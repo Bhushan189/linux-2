@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/rohm_bu21023.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/rohm_bu21023.ko drivers/input/touchscreen/rohm_bu21023.o drivers/input/touchscreen/rohm_bu21023.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/most/mostcore/mostcore.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/most/mostcore/mostcore.ko drivers/staging/most/mostcore/mostcore.o drivers/staging/most/mostcore/mostcore.mod.o

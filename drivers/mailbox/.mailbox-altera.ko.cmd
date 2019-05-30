@@ -1,0 +1,1 @@
+cmd_drivers/mailbox/mailbox-altera.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mailbox/mailbox-altera.ko drivers/mailbox/mailbox-altera.o drivers/mailbox/mailbox-altera.mod.o

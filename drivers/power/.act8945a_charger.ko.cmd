@@ -1,0 +1,1 @@
+cmd_drivers/power/act8945a_charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/act8945a_charger.ko drivers/power/act8945a_charger.o drivers/power/act8945a_charger.mod.o

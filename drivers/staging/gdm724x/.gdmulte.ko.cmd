@@ -1,0 +1,1 @@
+cmd_drivers/staging/gdm724x/gdmulte.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/gdm724x/gdmulte.ko drivers/staging/gdm724x/gdmulte.o drivers/staging/gdm724x/gdmulte.mod.o

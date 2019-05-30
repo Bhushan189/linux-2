@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/m2m-deinterlace.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/m2m-deinterlace.ko drivers/media/platform/m2m-deinterlace.o drivers/media/platform/m2m-deinterlace.mod.o

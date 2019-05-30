@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/mv_u3d_core.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/udc/mv_u3d_core.ko drivers/usb/gadget/udc/mv_u3d_core.o drivers/usb/gadget/udc/mv_u3d_core.mod.o

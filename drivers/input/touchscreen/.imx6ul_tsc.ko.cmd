@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/imx6ul_tsc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/imx6ul_tsc.ko drivers/input/touchscreen/imx6ul_tsc.o drivers/input/touchscreen/imx6ul_tsc.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/regulator/pv88080-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/pv88080-regulator.ko drivers/regulator/pv88080-regulator.o drivers/regulator/pv88080-regulator.mod.o

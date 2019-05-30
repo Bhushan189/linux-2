@@ -1,0 +1,1 @@
+cmd_drivers/iio/trigger/iio-trig-sysfs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/trigger/iio-trig-sysfs.ko drivers/iio/trigger/iio-trig-sysfs.o drivers/iio/trigger/iio-trig-sysfs.mod.o

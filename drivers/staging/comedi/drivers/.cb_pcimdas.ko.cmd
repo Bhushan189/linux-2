@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/cb_pcimdas.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/cb_pcimdas.ko drivers/staging/comedi/drivers/cb_pcimdas.o drivers/staging/comedi/drivers/cb_pcimdas.mod.o

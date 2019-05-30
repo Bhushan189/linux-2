@@ -1,0 +1,1 @@
+cmd_drivers/misc/lattice-ecp3-config.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/misc/lattice-ecp3-config.ko drivers/misc/lattice-ecp3-config.o drivers/misc/lattice-ecp3-config.mod.o

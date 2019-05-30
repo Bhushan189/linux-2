@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/cros_ec_lpc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/platform/chrome/cros_ec_lpc.ko drivers/platform/chrome/cros_ec_lpc.o drivers/platform/chrome/cros_ec_lpc.mod.o

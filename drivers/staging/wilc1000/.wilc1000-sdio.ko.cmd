@@ -1,0 +1,1 @@
+cmd_drivers/staging/wilc1000/wilc1000-sdio.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/wilc1000/wilc1000-sdio.ko drivers/staging/wilc1000/wilc1000-sdio.o drivers/staging/wilc1000/wilc1000-sdio.mod.o

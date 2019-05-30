@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/sdhci_f_sdh30.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mmc/host/sdhci_f_sdh30.ko drivers/mmc/host/sdhci_f_sdh30.o drivers/mmc/host/sdhci_f_sdh30.mod.o

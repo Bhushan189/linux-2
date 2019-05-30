@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/palmas_gpadc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/adc/palmas_gpadc.ko drivers/iio/adc/palmas_gpadc.o drivers/iio/adc/palmas_gpadc.mod.o

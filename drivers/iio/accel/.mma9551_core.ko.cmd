@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/mma9551_core.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/accel/mma9551_core.ko drivers/iio/accel/mma9551_core.o drivers/iio/accel/mma9551_core.mod.o

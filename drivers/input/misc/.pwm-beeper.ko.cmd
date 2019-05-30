@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/pwm-beeper.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/pwm-beeper.ko drivers/input/misc/pwm-beeper.o drivers/input/misc/pwm-beeper.mod.o

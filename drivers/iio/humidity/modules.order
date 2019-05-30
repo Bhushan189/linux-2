@@ -1,0 +1,6 @@
+kernel/drivers/iio/humidity/am2315.ko
+kernel/drivers/iio/humidity/dht11.ko
+kernel/drivers/iio/humidity/hdc100x.ko
+kernel/drivers/iio/humidity/htu21.ko
+kernel/drivers/iio/humidity/si7005.ko
+kernel/drivers/iio/humidity/si7020.ko

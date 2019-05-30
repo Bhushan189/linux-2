@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/intel/built-in.o :=  ld -m elf_x86_64   -r -o drivers/pinctrl/intel/built-in.o drivers/pinctrl/intel/pinctrl-baytrail.o drivers/pinctrl/intel/pinctrl-cherryview.o drivers/pinctrl/intel/pinctrl-intel.o drivers/pinctrl/intel/pinctrl-broxton.o drivers/pinctrl/intel/pinctrl-sunrisepoint.o 

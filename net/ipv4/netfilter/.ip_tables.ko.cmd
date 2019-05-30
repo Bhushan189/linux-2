@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/ip_tables.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o net/ipv4/netfilter/ip_tables.ko net/ipv4/netfilter/ip_tables.o net/ipv4/netfilter/ip_tables.mod.o

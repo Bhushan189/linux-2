@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/kb3886_bl.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/kb3886_bl.ko drivers/video/backlight/kb3886_bl.o drivers/video/backlight/kb3886_bl.mod.o

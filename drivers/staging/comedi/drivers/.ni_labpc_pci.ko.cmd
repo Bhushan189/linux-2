@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ni_labpc_pci.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/ni_labpc_pci.ko drivers/staging/comedi/drivers/ni_labpc_pci.o drivers/staging/comedi/drivers/ni_labpc_pci.mod.o

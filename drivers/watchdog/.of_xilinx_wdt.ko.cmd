@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/of_xilinx_wdt.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/watchdog/of_xilinx_wdt.ko drivers/watchdog/of_xilinx_wdt.o drivers/watchdog/of_xilinx_wdt.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/caif/caif_virtio.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/caif/caif_virtio.ko drivers/net/caif/caif_virtio.o drivers/net/caif/caif_virtio.mod.o

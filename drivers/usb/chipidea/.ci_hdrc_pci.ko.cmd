@@ -1,0 +1,1 @@
+cmd_drivers/usb/chipidea/ci_hdrc_pci.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/chipidea/ci_hdrc_pci.ko drivers/usb/chipidea/ci_hdrc_pci.o drivers/usb/chipidea/ci_hdrc_pci.mod.o

@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-tlv320aic23.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-tlv320aic23.ko sound/soc/codecs/snd-soc-tlv320aic23.o sound/soc/codecs/snd-soc-tlv320aic23.mod.o

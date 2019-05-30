@@ -1,0 +1,4 @@
+kernel/drivers/net/caif/caif_serial.ko
+kernel/drivers/net/caif/cfspi_slave.ko
+kernel/drivers/net/caif/caif_hsi.ko
+kernel/drivers/net/caif/caif_virtio.ko

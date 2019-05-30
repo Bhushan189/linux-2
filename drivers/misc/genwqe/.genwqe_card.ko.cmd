@@ -1,0 +1,1 @@
+cmd_drivers/misc/genwqe/genwqe_card.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/misc/genwqe/genwqe_card.ko drivers/misc/genwqe/genwqe_card.o drivers/misc/genwqe/genwqe_card.mod.o

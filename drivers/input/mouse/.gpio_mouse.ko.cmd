@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/gpio_mouse.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/mouse/gpio_mouse.ko drivers/input/mouse/gpio_mouse.o drivers/input/mouse/gpio_mouse.mod.o

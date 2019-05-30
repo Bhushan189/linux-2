@@ -1,0 +1,3 @@
+kernel/drivers/input/rmi4/rmi_core.ko
+kernel/drivers/input/rmi4/rmi_i2c.ko
+kernel/drivers/input/rmi4/rmi_spi.ko

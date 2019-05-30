@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/capsule-loader.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/firmware/efi/capsule-loader.ko drivers/firmware/efi/capsule-loader.o drivers/firmware/efi/capsule-loader.mod.o

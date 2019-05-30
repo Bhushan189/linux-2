@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/lm3533-als.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/light/lm3533-als.ko drivers/iio/light/lm3533-als.o drivers/iio/light/lm3533-als.mod.o

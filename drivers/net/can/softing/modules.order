@@ -1,0 +1,2 @@
+kernel/drivers/net/can/softing/softing.ko
+kernel/drivers/net/can/softing/softing_cs.ko

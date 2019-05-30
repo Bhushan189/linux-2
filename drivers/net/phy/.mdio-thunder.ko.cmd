@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/mdio-thunder.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/phy/mdio-thunder.ko drivers/net/phy/mdio-thunder.o drivers/net/phy/mdio-thunder.mod.o

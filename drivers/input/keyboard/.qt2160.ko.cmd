@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/qt2160.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/qt2160.ko drivers/input/keyboard/qt2160.o drivers/input/keyboard/qt2160.mod.o

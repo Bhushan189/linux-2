@@ -1,0 +1,1 @@
+cmd_drivers/power/bq27xxx_battery_i2c.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/bq27xxx_battery_i2c.ko drivers/power/bq27xxx_battery_i2c.o drivers/power/bq27xxx_battery_i2c.mod.o

@@ -1,0 +1,6 @@
+kernel/drivers/dma/qcom/hdma_mgmt.ko
+kernel/drivers/dma/qcom/hdma.ko
+kernel/drivers/dma/fsl-edma.ko
+kernel/drivers/dma/idma64.ko
+kernel/drivers/dma/ioat/ioatdma.ko
+kernel/drivers/dma/mic_x100_dma.ko

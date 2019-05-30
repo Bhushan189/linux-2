@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-tas2552.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-tas2552.ko sound/soc/codecs/snd-soc-tas2552.o sound/soc/codecs/snd-soc-tas2552.mod.o

@@ -1,0 +1,8 @@
+kernel/drivers/media/platform/marvell-ccic/cafe_ccic.ko
+kernel/drivers/media/platform/vivid/vivid.ko
+kernel/drivers/media/platform/vim2m.ko
+kernel/drivers/media/platform/sh_veu.ko
+kernel/drivers/media/platform/m2m-deinterlace.ko
+kernel/drivers/media/platform/xilinx/xilinx-video.ko
+kernel/drivers/media/platform/xilinx/xilinx-tpg.ko
+kernel/drivers/media/platform/xilinx/xilinx-vtc.ko

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-mux-gpio.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/i2c/muxes/i2c-mux-gpio.ko drivers/i2c/muxes/i2c-mux-gpio.o drivers/i2c/muxes/i2c-mux-gpio.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cavium/thunder/nicvf.o := ld -m elf_x86_64   -r -o drivers/net/ethernet/cavium/thunder/nicvf.o drivers/net/ethernet/cavium/thunder/nicvf_main.o drivers/net/ethernet/cavium/thunder/nicvf_queues.o drivers/net/ethernet/cavium/thunder/nicvf_ethtool.o 

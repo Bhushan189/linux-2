@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/bcm2048/radio-bcm2048.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/media/bcm2048/radio-bcm2048.ko drivers/staging/media/bcm2048/radio-bcm2048.o drivers/staging/media/bcm2048/radio-bcm2048.mod.o

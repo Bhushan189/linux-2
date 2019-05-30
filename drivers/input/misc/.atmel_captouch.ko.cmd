@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/atmel_captouch.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/atmel_captouch.ko drivers/input/misc/atmel_captouch.o drivers/input/misc/atmel_captouch.mod.o

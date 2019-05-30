@@ -1,0 +1,1 @@
+cmd_drivers/iio/proximity/as3935.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/proximity/as3935.ko drivers/iio/proximity/as3935.o drivers/iio/proximity/as3935.mod.o

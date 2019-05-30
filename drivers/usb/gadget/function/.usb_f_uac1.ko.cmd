@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_uac1.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/function/usb_f_uac1.ko drivers/usb/gadget/function/usb_f_uac1.o drivers/usb/gadget/function/usb_f_uac1.mod.o

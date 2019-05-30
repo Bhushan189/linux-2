@@ -1,0 +1,2 @@
+kernel/drivers/nfc/fdp/fdp.ko
+kernel/drivers/nfc/fdp/fdp_i2c.ko

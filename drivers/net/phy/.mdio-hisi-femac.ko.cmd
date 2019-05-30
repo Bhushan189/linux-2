@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/mdio-hisi-femac.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/phy/mdio-hisi-femac.ko drivers/net/phy/mdio-hisi-femac.o drivers/net/phy/mdio-hisi-femac.mod.o

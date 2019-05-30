@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/mv88e6xxx/chip.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/dsa/mv88e6xxx/chip.ko drivers/net/dsa/mv88e6xxx/chip.o drivers/net/dsa/mv88e6xxx/chip.mod.o

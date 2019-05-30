@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_proto_sctp.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_proto_sctp.ko net/netfilter/nf_conntrack_proto_sctp.o net/netfilter/nf_conntrack_proto_sctp.mod.o

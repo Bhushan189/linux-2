@@ -1,0 +1,1 @@
+cmd_drivers/isdn/i4l/isdn_bsdcomp.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/isdn/i4l/isdn_bsdcomp.ko drivers/isdn/i4l/isdn_bsdcomp.o drivers/isdn/i4l/isdn_bsdcomp.mod.o

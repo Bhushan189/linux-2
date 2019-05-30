@@ -1,0 +1,6 @@
+kernel/drivers/gpu/drm/bridge/analogix-anx78xx.ko
+kernel/drivers/gpu/drm/bridge/nxp-ptn3460.ko
+kernel/drivers/gpu/drm/bridge/parade-ps8622.ko
+kernel/drivers/gpu/drm/bridge/sii902x.ko
+kernel/drivers/gpu/drm/bridge/tc358767.ko
+kernel/drivers/gpu/drm/bridge/adv7511/adv7511.ko

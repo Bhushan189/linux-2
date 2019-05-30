@@ -1,0 +1,1 @@
+cmd_drivers/hwtracing/intel_th/intel_th_sth.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/hwtracing/intel_th/intel_th_sth.ko drivers/hwtracing/intel_th/intel_th_sth.o drivers/hwtracing/intel_th/intel_th_sth.mod.o

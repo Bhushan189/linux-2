@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/menf21bmc_wdt.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/watchdog/menf21bmc_wdt.ko drivers/watchdog/menf21bmc_wdt.o drivers/watchdog/menf21bmc_wdt.mod.o

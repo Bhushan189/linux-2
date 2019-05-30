@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/ssp_gyro_sensor.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/gyro/ssp_gyro_sensor.ko drivers/iio/gyro/ssp_gyro_sensor.o drivers/iio/gyro/ssp_gyro_sensor.mod.o

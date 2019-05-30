@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm_i2c_atmel.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/char/tpm/tpm_i2c_atmel.ko drivers/char/tpm/tpm_i2c_atmel.o drivers/char/tpm/tpm_i2c_atmel.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/ibm_rtl.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/platform/x86/ibm_rtl.ko drivers/platform/x86/ibm_rtl.o drivers/platform/x86/ibm_rtl.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-loopback-test.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/spi/spi-loopback-test.ko drivers/spi/spi-loopback-test.o drivers/spi/spi-loopback-test.mod.o

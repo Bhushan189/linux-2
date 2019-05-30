@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-sharp-lq101r1sx01.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/panel/panel-sharp-lq101r1sx01.ko drivers/gpu/drm/panel/panel-sharp-lq101r1sx01.o drivers/gpu/drm/panel/panel-sharp-lq101r1sx01.mod.o

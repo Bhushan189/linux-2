@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/hostap/hostap_pci.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/intersil/hostap/hostap_pci.ko drivers/net/wireless/intersil/hostap/hostap_pci.o drivers/net/wireless/intersil/hostap/hostap_pci.mod.o

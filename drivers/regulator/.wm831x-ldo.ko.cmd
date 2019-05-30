@@ -1,0 +1,1 @@
+cmd_drivers/regulator/wm831x-ldo.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/wm831x-ldo.ko drivers/regulator/wm831x-ldo.o drivers/regulator/wm831x-ldo.mod.o

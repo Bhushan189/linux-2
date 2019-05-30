@@ -1,0 +1,1 @@
+cmd_arch/x86/boot/compressed/vmlinux.bin.xz := (cat arch/x86/boot/compressed/vmlinux.bin arch/x86/boot/compressed/vmlinux.relocs | sh ./scripts/xz_wrap.sh && printf \\224\\033\\064\\001) > arch/x86/boot/compressed/vmlinux.bin.xz || (rm -f arch/x86/boot/compressed/vmlinux.bin.xz ; false)

@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/qcom-spmi-vadc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/adc/qcom-spmi-vadc.ko drivers/iio/adc/qcom-spmi-vadc.o drivers/iio/adc/qcom-spmi-vadc.mod.o

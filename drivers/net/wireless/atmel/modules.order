@@ -1,0 +1,4 @@
+kernel/drivers/net/wireless/atmel/atmel.ko
+kernel/drivers/net/wireless/atmel/atmel_pci.ko
+kernel/drivers/net/wireless/atmel/atmel_cs.ko
+kernel/drivers/net/wireless/atmel/at76c50x-usb.ko

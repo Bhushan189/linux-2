@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/amplc_pci263.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/amplc_pci263.ko drivers/staging/comedi/drivers/amplc_pci263.o drivers/staging/comedi/drivers/amplc_pci263.mod.o

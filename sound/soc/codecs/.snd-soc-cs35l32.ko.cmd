@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-cs35l32.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-cs35l32.ko sound/soc/codecs/snd-soc-cs35l32.o sound/soc/codecs/snd-soc-cs35l32.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-panasonic-vvx10f034n00.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/panel/panel-panasonic-vvx10f034n00.ko drivers/gpu/drm/panel/panel-panasonic-vvx10f034n00.o drivers/gpu/drm/panel/panel-panasonic-vvx10f034n00.mod.o

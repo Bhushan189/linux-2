@@ -1,0 +1,3 @@
+kernel/drivers/ipack/devices/ipoctal.ko
+kernel/drivers/ipack/carriers/tpci200.ko
+kernel/drivers/ipack/ipack.ko

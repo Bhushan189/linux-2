@@ -1,0 +1,1 @@
+cmd_drivers/mmc/core/pwrseq_emmc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mmc/core/pwrseq_emmc.ko drivers/mmc/core/pwrseq_emmc.o drivers/mmc/core/pwrseq_emmc.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/airspy/airspy.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/airspy/airspy.ko drivers/media/usb/airspy/airspy.o drivers/media/usb/airspy/airspy.mod.o

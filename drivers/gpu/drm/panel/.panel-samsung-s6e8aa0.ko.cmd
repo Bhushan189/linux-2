@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-samsung-s6e8aa0.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/panel/panel-samsung-s6e8aa0.ko drivers/gpu/drm/panel/panel-samsung-s6e8aa0.o drivers/gpu/drm/panel/panel-samsung-s6e8aa0.mod.o

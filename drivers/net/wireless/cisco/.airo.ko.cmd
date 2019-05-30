@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/cisco/airo.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/cisco/airo.ko drivers/net/wireless/cisco/airo.o drivers/net/wireless/cisco/airo.mod.o

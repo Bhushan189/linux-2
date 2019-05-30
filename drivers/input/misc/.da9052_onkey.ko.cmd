@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/da9052_onkey.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/da9052_onkey.ko drivers/input/misc/da9052_onkey.o drivers/input/misc/da9052_onkey.mod.o

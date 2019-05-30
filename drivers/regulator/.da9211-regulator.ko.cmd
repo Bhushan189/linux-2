@@ -1,0 +1,1 @@
+cmd_drivers/regulator/da9211-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/da9211-regulator.ko drivers/regulator/da9211-regulator.o drivers/regulator/da9211-regulator.mod.o

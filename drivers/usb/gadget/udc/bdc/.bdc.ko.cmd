@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/bdc/bdc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/udc/bdc/bdc.ko drivers/usb/gadget/udc/bdc/bdc.o drivers/usb/gadget/udc/bdc/bdc.mod.o

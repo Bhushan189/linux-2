@@ -1,0 +1,1 @@
+cmd_drivers/mtd/tests/mtd_pagetest.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mtd/tests/mtd_pagetest.ko drivers/mtd/tests/mtd_pagetest.o drivers/mtd/tests/mtd_pagetest.mod.o

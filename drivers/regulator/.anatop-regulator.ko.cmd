@@ -1,0 +1,1 @@
+cmd_drivers/regulator/anatop-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/anatop-regulator.ko drivers/regulator/anatop-regulator.o drivers/regulator/anatop-regulator.mod.o

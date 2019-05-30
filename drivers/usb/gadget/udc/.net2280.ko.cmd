@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/net2280.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/udc/net2280.ko drivers/usb/gadget/udc/net2280.o drivers/usb/gadget/udc/net2280.mod.o

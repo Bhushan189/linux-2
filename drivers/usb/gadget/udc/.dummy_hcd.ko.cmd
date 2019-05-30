@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/dummy_hcd.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/udc/dummy_hcd.ko drivers/usb/gadget/udc/dummy_hcd.o drivers/usb/gadget/udc/dummy_hcd.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/lm8333.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/lm8333.ko drivers/input/keyboard/lm8333.o drivers/input/keyboard/lm8333.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/potentiometer/max5487.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/potentiometer/max5487.ko drivers/iio/potentiometer/max5487.o drivers/iio/potentiometer/max5487.mod.o

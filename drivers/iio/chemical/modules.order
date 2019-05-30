@@ -1,0 +1,3 @@
+kernel/drivers/iio/chemical/atlas-ph-sensor.ko
+kernel/drivers/iio/chemical/ams-iaq-core.ko
+kernel/drivers/iio/chemical/vz89x.ko

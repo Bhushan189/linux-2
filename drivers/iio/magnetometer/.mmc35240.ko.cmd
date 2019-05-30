@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/mmc35240.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/mmc35240.ko drivers/iio/magnetometer/mmc35240.o drivers/iio/magnetometer/mmc35240.mod.o

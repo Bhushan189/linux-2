@@ -1,0 +1,2 @@
+kernel/drivers/rapidio/devices/tsi721_mport.ko
+kernel/drivers/rapidio/devices/rio_mport_cdev.ko

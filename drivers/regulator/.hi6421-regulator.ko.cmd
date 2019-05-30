@@ -1,0 +1,1 @@
+cmd_drivers/regulator/hi6421-regulator.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/regulator/hi6421-regulator.ko drivers/regulator/hi6421-regulator.o drivers/regulator/hi6421-regulator.mod.o

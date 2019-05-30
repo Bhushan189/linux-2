@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/men_z188_adc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/adc/men_z188_adc.ko drivers/iio/adc/men_z188_adc.o drivers/iio/adc/men_z188_adc.mod.o

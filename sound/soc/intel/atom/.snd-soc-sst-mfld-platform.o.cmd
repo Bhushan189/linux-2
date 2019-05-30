@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/atom/snd-soc-sst-mfld-platform.o := ld -m elf_x86_64   -r -o sound/soc/intel/atom/snd-soc-sst-mfld-platform.o sound/soc/intel/atom/sst-mfld-platform-pcm.o sound/soc/intel/atom/sst-mfld-platform-compress.o sound/soc/intel/atom/sst-atom-controls.o 

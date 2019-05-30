@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-simple.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/panel/panel-simple.ko drivers/gpu/drm/panel/panel-simple.o drivers/gpu/drm/panel/panel-simple.mod.o

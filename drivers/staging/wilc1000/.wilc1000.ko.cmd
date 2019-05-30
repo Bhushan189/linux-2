@@ -1,0 +1,1 @@
+cmd_drivers/staging/wilc1000/wilc1000.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/wilc1000/wilc1000.ko drivers/staging/wilc1000/wilc1000.o drivers/staging/wilc1000/wilc1000.mod.o

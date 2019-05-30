@@ -1,0 +1,2 @@
+kernel/drivers/acpi/apei/einj.ko
+kernel/drivers/acpi/apei/erst-dbg.ko

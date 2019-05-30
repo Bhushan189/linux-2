@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/vim2m.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/vim2m.ko drivers/media/platform/vim2m.o drivers/media/platform/vim2m.mod.o

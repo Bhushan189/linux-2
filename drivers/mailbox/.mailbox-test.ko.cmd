@@ -1,0 +1,1 @@
+cmd_drivers/mailbox/mailbox-test.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/mailbox/mailbox-test.ko drivers/mailbox/mailbox-test.o drivers/mailbox/mailbox-test.mod.o

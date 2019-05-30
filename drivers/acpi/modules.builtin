@@ -1,0 +1,8 @@
+kernel/drivers/acpi/button.ko
+kernel/drivers/acpi/fan.ko
+kernel/drivers/acpi/video.ko
+kernel/drivers/acpi/processor.ko
+kernel/drivers/acpi/thermal.ko
+kernel/drivers/acpi/hed.ko
+kernel/drivers/acpi/ec_sys.ko
+kernel/drivers/acpi/acpi_pad.ko

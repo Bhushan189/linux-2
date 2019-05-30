@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sh_veu.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sh_veu.ko drivers/media/platform/sh_veu.o drivers/media/platform/sh_veu.mod.o

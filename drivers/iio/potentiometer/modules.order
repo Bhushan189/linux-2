@@ -1,0 +1,5 @@
+kernel/drivers/iio/potentiometer/ds1803.ko
+kernel/drivers/iio/potentiometer/max5487.ko
+kernel/drivers/iio/potentiometer/mcp4131.ko
+kernel/drivers/iio/potentiometer/mcp4531.ko
+kernel/drivers/iio/potentiometer/tpl0102.ko
